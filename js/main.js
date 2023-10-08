@@ -14,8 +14,6 @@ if (localStorage.getItem('tasks')){
     tasks.forEach((task) => renderTast(task));
 }
 
-
-
 checkEmplyList();
 
 // добавление задачи
